@@ -17,7 +17,7 @@ public class PortalControl : MonoBehaviour
         }
         if(isChanger)
         {
-            collision.gameObject.GetComponent<DimensionSwitch>().SwitchDimension();
+            FindObjectOfType<DimensionManager>().ChangeTerrainDimension();
         }
     }
 

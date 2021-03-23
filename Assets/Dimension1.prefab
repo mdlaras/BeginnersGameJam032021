@@ -98,9 +98,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Dimension: 1
   objectSprite: {fileID: 6512079738362141467}
-  playerDimension: {fileID: 1505129293362559253, guid: 63d8c67d5dda30a478bb0bcf0916c157,
-    type: 3}
-  toggleSpace: 1
+  isPlayer: 0
   boxCollider2D: {fileID: 6075259319707575373}
 --- !u!50 &4312267763600615698
 Rigidbody2D:

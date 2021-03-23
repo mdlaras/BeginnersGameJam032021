@@ -6,7 +6,6 @@ public class DimensionSwitch : MonoBehaviour
 {
     public int Dimension;
     [SerializeField] SpriteRenderer objectSprite;
-    [SerializeField] DimensionSwitch playerDimension;
     [SerializeField] bool isPlayer;
     [SerializeField] BoxCollider2D boxCollider2D;
 
@@ -22,9 +21,9 @@ public class DimensionSwitch : MonoBehaviour
         }
     }
 
-    void AdjustCollider()
+    public void AdjustCollider(int player)
     {
-        if(Dimension == FindObjectOfType<PlayerControl>().GetComponent<DimensionSwitch>().Dimension)
+        if(Dimension == player)
         {
             boxCollider2D.enabled = true;
         }
@@ -42,7 +41,7 @@ public class DimensionSwitch : MonoBehaviour
         }
         if(!isPlayer)
         {
-            AdjustCollider();
+            AdjustCollider(FindObjectOfType<PlayerControl>().GetComponent<DimensionSwitch>().Dimension);
         }
         ChangeColor();
     }
@@ -50,18 +49,17 @@ public class DimensionSwitch : MonoBehaviour
     void Start()
     {
         ChangeColor();
-        AdjustCollider();
+        AdjustCollider(FindObjectOfType<PlayerControl>().GetComponent<DimensionSwitch>().Dimension);
     }
 
     void Update()
     {
-        if(!isPlayer)
+        if(isPlayer)
         {
             if(Input.GetKeyUp(KeyCode.Space))
             {
                 SwitchDimension();
             }
-            AdjustCollider();
         }
     }
 }
