@@ -24,15 +24,15 @@ public class PlayerControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKey(KeyCode.LeftArrow))
+        if(Input.GetKey(KeyCode.D))
         {
             transform.localPosition += new Vector3(-velocity,0,0) * Time.deltaTime;
         }
-        if(Input.GetKey(KeyCode.RightArrow))
+        if(Input.GetKey(KeyCode.A))
         {
             transform.localPosition += new Vector3(velocity,0,0) * Time.deltaTime;
         }
-        if(Input.GetKeyDown(KeyCode.UpArrow) && isGrounded)
+        if(Input.GetKeyDown(KeyCode.W) && isGrounded)
         {
             GetComponent<Rigidbody2D>().AddForce(new Vector2(0,jumpHeight), ForceMode2D.Force);
         }

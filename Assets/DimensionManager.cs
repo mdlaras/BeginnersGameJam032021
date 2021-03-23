@@ -27,10 +27,4 @@ public class DimensionManager : MonoBehaviour
             terrainDimension.AdjustCollider(FindObjectOfType<PlayerControl>().GetComponent<DimensionSwitch>().Dimension);
         }
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-    
-    }
 }

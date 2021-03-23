@@ -57,7 +57,7 @@ public class DimensionSwitch : MonoBehaviour
     {
         if(isPlayer)
         {
-            if(Input.GetKeyUp(KeyCode.Space))
+            if(Input.GetKeyUp(KeyCode.S))
             {
                 SwitchDimension();
                 dimensionManager.AdjustTerrain();
