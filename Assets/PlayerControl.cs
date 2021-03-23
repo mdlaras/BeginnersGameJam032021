@@ -34,7 +34,7 @@ public class PlayerControl : MonoBehaviour
         }
         if(Input.GetKeyDown(KeyCode.UpArrow) && isGrounded)
         {
-            transform.localPosition += new Vector3(0,jumpHeight,0) * Time.deltaTime;
+            GetComponent<Rigidbody2D>().AddForce(new Vector2(0,jumpHeight), ForceMode2D.Force);
         }
     }
 }
