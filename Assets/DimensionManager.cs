@@ -5,26 +5,30 @@ using UnityEngine;
 public class DimensionManager : MonoBehaviour
 {
     DimensionSwitch[] childrenTerrain;
+    DimensionSwitch player;
 
     void Start()
     {
         childrenTerrain = GetComponentsInChildren<DimensionSwitch>();
+        player = FindObjectOfType<PlayerControl>().GetComponent<DimensionSwitch>();
     }
 
     public void ChangeTerrainDimension()
     {
+        var playerDimension =  player.currentDimension;
         foreach(DimensionSwitch terrainDimension in childrenTerrain)
         {
             terrainDimension.SwitchDimension();
-            terrainDimension.AdjustCollider(FindObjectOfType<PlayerControl>().GetComponent<DimensionSwitch>().currentDimension);
+            terrainDimension.AdjustCollider(playerDimension);
         }
     }
 
     public void AdjustTerrain()
     {
-         foreach(DimensionSwitch terrainDimension in childrenTerrain)
+        var playerDimension =  player.currentDimension;
+        foreach(DimensionSwitch terrainDimension in childrenTerrain)
         {
-            terrainDimension.AdjustCollider(FindObjectOfType<PlayerControl>().GetComponent<DimensionSwitch>().currentDimension);
+            terrainDimension.AdjustCollider(playerDimension);
         }
     }
 }
