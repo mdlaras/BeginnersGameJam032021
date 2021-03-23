@@ -1024,6 +1024,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -546248033171001234, guid: 7d24568a4e68f6944880487256403117,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 2.4698596
+      objectReference: {fileID: 0}
+    - target: {fileID: -546248033171001234, guid: 7d24568a4e68f6944880487256403117,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 0.5949297
+      objectReference: {fileID: 0}
     - target: {fileID: 707313243191950104, guid: 7d24568a4e68f6944880487256403117,
         type: 3}
       propertyPath: m_Name
@@ -1084,10 +1094,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2420440294088985029, guid: 7d24568a4e68f6944880487256403117,
+    - target: {fileID: 3158802883609962971, guid: 7d24568a4e68f6944880487256403117,
         type: 3}
-      propertyPath: m_ForceVariation
-      value: 10
+      propertyPath: m_Density
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3158802883609962971, guid: 7d24568a4e68f6944880487256403117,
+        type: 3}
+      propertyPath: m_SurfaceLevel
+      value: 500
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7d24568a4e68f6944880487256403117, type: 3}
