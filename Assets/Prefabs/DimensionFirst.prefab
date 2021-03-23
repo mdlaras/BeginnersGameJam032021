@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 428391437599405171}
   - component: {fileID: 275398865282575023}
   m_Layer: 0
-  m_Name: Dimension0
+  m_Name: DimensionFirst
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 3765dcc04cc0772468f61fb966ec8662, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.24313726, g: 0.5372549, b: 0.7764706, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
