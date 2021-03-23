@@ -4,27 +4,38 @@ using UnityEngine;
 
 public class DimensionSwitch : MonoBehaviour
 {
-    public int Dimension;
     [SerializeField] SpriteRenderer objectSprite;
     [SerializeField] DimensionManager dimensionManager;
     [SerializeField] bool isPlayer;
     [SerializeField] BoxCollider2D boxCollider2D;
 
+    public Dimension currentDimension;
+
+    public enum Dimension
+    {
+        Neutral,
+        First,
+        Second
+    }
     void ChangeColor()
     {
-        if(Dimension == 0)
+        if(currentDimension == Dimension.First)
         {
             objectSprite.color = Color.blue;
         }
-        else
+        else if(currentDimension == Dimension.Second)
         {
             objectSprite.color = Color.red;
         }
+        else if(currentDimension == Dimension.Neutral)
+        {
+            objectSprite.color = Color.gray;
+        }
     }
 
-    public void AdjustCollider(int player)
+    public void AdjustCollider(Dimension player)
     {
-        if(Dimension == player)
+        if(currentDimension == player || currentDimension == Dimension.Neutral)
         {
             boxCollider2D.enabled = true;
         }
@@ -35,14 +46,17 @@ public class DimensionSwitch : MonoBehaviour
     }
     public void SwitchDimension()
     {
-        ++Dimension;
-        if(Dimension == 2)
+        if(currentDimension == Dimension.First)
         {
-            Dimension -= 2;
+            currentDimension = Dimension.Second;
+        }
+        else if (currentDimension == Dimension.Second)
+        {
+            currentDimension = Dimension.First;
         }
         if(!isPlayer)
         {
-            AdjustCollider(FindObjectOfType<PlayerControl>().GetComponent<DimensionSwitch>().Dimension);
+            AdjustCollider(FindObjectOfType<PlayerControl>().GetComponent<DimensionSwitch>().currentDimension);
         }
         ChangeColor();
     }
@@ -50,18 +64,15 @@ public class DimensionSwitch : MonoBehaviour
     void Start()
     {
         ChangeColor();
-        AdjustCollider(FindObjectOfType<PlayerControl>().GetComponent<DimensionSwitch>().Dimension);
+        AdjustCollider(FindObjectOfType<PlayerControl>().GetComponent<DimensionSwitch>().currentDimension);
     }
 
     void Update()
     {
-        if(isPlayer)
+        if(isPlayer && Input.GetKeyUp(KeyCode.F))
         {
-            if(Input.GetKeyUp(KeyCode.S))
-            {
-                SwitchDimension();
-                dimensionManager.AdjustTerrain();
-            }
+            SwitchDimension();
+            dimensionManager.AdjustTerrain();
         }
     }
 }

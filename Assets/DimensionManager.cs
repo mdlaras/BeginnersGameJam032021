@@ -16,7 +16,7 @@ public class DimensionManager : MonoBehaviour
         foreach(DimensionSwitch terrainDimension in childrenTerrain)
         {
             terrainDimension.SwitchDimension();
-            terrainDimension.AdjustCollider(FindObjectOfType<PlayerControl>().GetComponent<DimensionSwitch>().Dimension);
+            terrainDimension.AdjustCollider(FindObjectOfType<PlayerControl>().GetComponent<DimensionSwitch>().currentDimension);
         }
     }
 
@@ -24,7 +24,7 @@ public class DimensionManager : MonoBehaviour
     {
          foreach(DimensionSwitch terrainDimension in childrenTerrain)
         {
-            terrainDimension.AdjustCollider(FindObjectOfType<PlayerControl>().GetComponent<DimensionSwitch>().Dimension);
+            terrainDimension.AdjustCollider(FindObjectOfType<PlayerControl>().GetComponent<DimensionSwitch>().currentDimension);
         }
     }
 }
