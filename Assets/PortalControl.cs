@@ -9,7 +9,7 @@ public class PortalControl : MonoBehaviour
     [SerializeField] bool isPortalIn;
     [SerializeField] PortalControl portalOut;
 
-    void OnCollisionEnter2D (Collision2D collision)
+    void OnTriggerEnter2D (Collider2D collision)
     {
         if(isTransport && isPortalIn)
         {
