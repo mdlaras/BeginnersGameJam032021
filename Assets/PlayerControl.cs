@@ -4,26 +4,23 @@ using UnityEngine;
 
 public class PlayerControl : MonoBehaviour
 {
-    bool isGrounded = true;
+    [SerializeField] bool isGrounded;
     [SerializeField] float jumpHeight;
     [SerializeField] float velocity;
+    [SerializeField] Transform foot;
+    [SerializeField] float footRadius;
+    [SerializeField] LayerMask mask;
     // Start is called before the first frame update
     void Start()
     {
     }
 
-    void OnCollisionEnter2D (Collision2D collision)
-    {
-        isGrounded = true;
-    }
-
-    void OnCollisionExit2D (Collision2D collision)
-    {
-        isGrounded = false;
-    }
+    
     // Update is called once per frame
     void Update()
     {
+        isGrounded = Physics2D.OverlapCircle(foot.position, footRadius, mask) != null ? true : false;
+       
         if(Input.GetKey(KeyCode.LeftArrow))
         {
             transform.localPosition += new Vector3(-velocity,0,0) * Time.deltaTime;
