@@ -101,8 +101,6 @@ MonoBehaviour:
   isChanger: 0
   isPortalIn: 0
   portalOut: {fileID: 0}
-  isFan: 1
-  fanForce: 500
 --- !u!50 &-8913830037684646158
 Rigidbody2D:
   serializedVersion: 4
@@ -166,7 +164,7 @@ AreaEffector2D:
   m_UseGlobalAngle: 1
   m_ForceAngle: 90
   m_ForceMagnitude: 150
-  m_ForceVariation: 1
+  m_ForceVariation: 0
   m_ForceTarget: 0
   m_Drag: 0
   m_AngularDrag: 0
