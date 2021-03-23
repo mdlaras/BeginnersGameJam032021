@@ -21,7 +21,7 @@ public class DimensionSwitch : MonoBehaviour
     {
         if(currentDimension == Dimension.First)
         {
-            objectSprite.color = new Vector4(0,248,129, 1);
+            objectSprite.color = new Color32(62,137,198, 255);
         }
         else if(currentDimension == Dimension.Second)
         {

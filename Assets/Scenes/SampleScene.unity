@@ -1034,6 +1034,11 @@ PrefabInstance:
       propertyPath: dimensionManager
       value: 
       objectReference: {fileID: 239896650}
+    - target: {fileID: 1505129293362559254, guid: 63d8c67d5dda30a478bb0bcf0916c157,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 1505129293362559258, guid: 63d8c67d5dda30a478bb0bcf0916c157,
         type: 3}
       propertyPath: m_Name
