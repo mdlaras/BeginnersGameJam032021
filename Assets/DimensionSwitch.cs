@@ -6,6 +6,7 @@ public class DimensionSwitch : MonoBehaviour
 {
     public int Dimension;
     [SerializeField] SpriteRenderer objectSprite;
+    [SerializeField] DimensionManager dimensionManager;
     [SerializeField] bool isPlayer;
     [SerializeField] BoxCollider2D boxCollider2D;
 
@@ -59,6 +60,7 @@ public class DimensionSwitch : MonoBehaviour
             if(Input.GetKeyUp(KeyCode.Space))
             {
                 SwitchDimension();
+                dimensionManager.AdjustTerrain();
             }
         }
     }
