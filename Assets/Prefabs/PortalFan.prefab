@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 707313243191950106}
   - component: {fileID: 707313243191950107}
-  - component: {fileID: 5392907770581438117}
   - component: {fileID: -8913830037684646158}
   - component: {fileID: -546248033171001234}
   - component: {fileID: 2420440294088985029}
@@ -85,22 +84,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &5392907770581438117
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 707313243191950104}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f76345b0f5530ed42a023fb215a238f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isTransport: 0
-  isChanger: 0
-  isPortalIn: 0
-  portalOut: {fileID: 0}
 --- !u!50 &-8913830037684646158
 Rigidbody2D:
   serializedVersion: 4
@@ -163,7 +146,7 @@ AreaEffector2D:
     m_Bits: 4294967295
   m_UseGlobalAngle: 1
   m_ForceAngle: 90
-  m_ForceMagnitude: 150
+  m_ForceMagnitude: 8
   m_ForceVariation: 0
   m_ForceTarget: 0
   m_Drag: 0
