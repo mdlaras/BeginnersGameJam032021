@@ -598,7 +598,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 534304186}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ffaf75641132324ca800d4330621e38, type: 3}
+  m_Script: {fileID: 11500000, guid: a52b5408067e3af4a8225e15e0befb08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   dimensionShard: {fileID: 534304188}
@@ -878,7 +878,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 677054375}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ede0c9eea2279334093d6b244b13ad4d, type: 3}
+  m_Script: {fileID: 11500000, guid: 3c71c79dbe37d3f40a26aadee7d4c776, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   shard: 2
@@ -1008,7 +1008,7 @@ GameObject:
   - component: {fileID: 767442554}
   - component: {fileID: 767442556}
   m_Layer: 0
-  m_Name: PortslNextStage
+  m_Name: Portal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1113,7 +1113,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 767442552}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13be1e88a33465f44a74d2c0efdb624c, type: 3}
+  m_Script: {fileID: 11500000, guid: 7a2748dcacfa3ff47978ce21416b843d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: Stage_2_Prototype
@@ -1401,7 +1401,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 859037872}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ede0c9eea2279334093d6b244b13ad4d, type: 3}
+  m_Script: {fileID: 11500000, guid: 3c71c79dbe37d3f40a26aadee7d4c776, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   shard: 3
@@ -2120,7 +2120,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1542898237}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ede0c9eea2279334093d6b244b13ad4d, type: 3}
+  m_Script: {fileID: 11500000, guid: 3c71c79dbe37d3f40a26aadee7d4c776, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   shard: 1
