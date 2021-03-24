@@ -65,12 +65,12 @@ Material:
     - _OutlineSoftness: 0
     - _OutlineUVSpeedX: 0
     - _OutlineUVSpeedY: 0
-    - _OutlineWidth: 0
+    - _OutlineWidth: 0.4
     - _PerspectiveFilter: 0.875
     - _Reflectivity: 10
-    - _ScaleRatioA: 1
-    - _ScaleRatioB: 1
-    - _ScaleRatioC: 1
+    - _ScaleRatioA: 0.8333333
+    - _ScaleRatioB: 0.6770833
+    - _ScaleRatioC: 0.6770833
     - _ScaleX: 1
     - _ScaleY: 1
     - _ShaderFlags: 0
@@ -114,9 +114,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
   m_Name: Exo-VariableFont_wght SDF
   m_EditorClassIdentifier: 
-  hashCode: 0
+  hashCode: 1317989256
   material: {fileID: -7736402363380562307}
-  materialHashCode: 0
+  materialHashCode: 337701416
   m_Version: 1.1.0
   m_SourceFontFileGUID: 4997bd710d624854c8b0399a0f940ed4
   m_SourceFontFile_EditorRef: {fileID: 12800000, guid: 4997bd710d624854c8b0399a0f940ed4,
