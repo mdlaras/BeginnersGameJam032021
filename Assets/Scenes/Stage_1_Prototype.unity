@@ -1603,7 +1603,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1165708005}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a082a36416a76b48aa11d0168731090, type: 3}
+  m_Script: {fileID: 11500000, guid: 63f2eeccca49f5f4199baff966d9baf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   dimensionShard: 0
@@ -3072,6 +3072,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_MaskInteraction
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6179185979040735355, guid: 63d8c67d5dda30a478bb0bcf0916c157,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
