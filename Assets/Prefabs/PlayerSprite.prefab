@@ -151,10 +151,10 @@ MonoBehaviour:
   jumpHeight: 100
   velocity: 5
   foot: {fileID: 6521864855095164841}
-  footRadius: 3
+  footRadius: 5
   mask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 257
   eye: {fileID: 756658997630135289}
 --- !u!114 &1505129293362559253
 MonoBehaviour:
