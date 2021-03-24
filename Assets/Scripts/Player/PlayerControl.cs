@@ -43,6 +43,7 @@ public class PlayerControl : MonoBehaviour
         {
             transform.localPosition += new Vector3(velocity,0,0) * Time.deltaTime;
             gameObject.GetComponent<SpriteRenderer>().flipX = false;
+            eye.flipX = false;
             
         }
         if(Input.GetKeyDown(KeyCode.Space) && isGrounded)
