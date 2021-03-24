@@ -133,6 +133,11 @@ PrefabInstance:
       propertyPath: portalOut
       value: 
       objectReference: {fileID: 503584914}
+    - target: {fileID: -7143330903015074870, guid: d643288f570216440bae8cd2fe90fa60,
+        type: 3}
+      propertyPath: isPortalIn
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8001871764445782127, guid: d643288f570216440bae8cd2fe90fa60,
         type: 3}
       propertyPath: m_Name
