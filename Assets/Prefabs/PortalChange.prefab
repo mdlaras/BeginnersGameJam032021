@@ -144,6 +144,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTransport: 0
-  isChanger: 1
+  isChanger: 0
   isPortalIn: 0
   portalOut: {fileID: 0}

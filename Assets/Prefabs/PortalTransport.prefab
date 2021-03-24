@@ -95,7 +95,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e358fbb24d1579444aaaedef9b5cb6e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTransport: 1
+  isTransport: 0
   isChanger: 0
   isPortalIn: 0
   portalOut: {fileID: 0}
