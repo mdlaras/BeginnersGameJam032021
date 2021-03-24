@@ -13,6 +13,6 @@ public class SpikeController : MonoBehaviour
     void OnTriggerEnter2D(Collider2D collider2D)
     {
         dieScreen.GetComponent<PanelController>().ToggleActive();
-        Destroy(collider2D.gameObject);
+        collider2D.gameObject.SetActive(false);
     }
 }
