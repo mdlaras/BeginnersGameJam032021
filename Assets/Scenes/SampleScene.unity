@@ -367,7 +367,17 @@ PrefabInstance:
         type: 3}
       propertyPath: dimensionManager
       value: 
-      objectReference: {fileID: 535581103}
+      objectReference: {fileID: 1494936507}
+    - target: {fileID: 1505129293362559255, guid: 63d8c67d5dda30a478bb0bcf0916c157,
+        type: 3}
+      propertyPath: velocity
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1505129293362559255, guid: 63d8c67d5dda30a478bb0bcf0916c157,
+        type: 3}
+      propertyPath: jumpHeight
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 1505129293362559258, guid: 63d8c67d5dda30a478bb0bcf0916c157,
         type: 3}
       propertyPath: m_Name
@@ -805,7 +815,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f76345b0f5530ed42a023fb215a238f7, type: 3}
+  m_Script: {fileID: 11500000, guid: e358fbb24d1579444aaaedef9b5cb6e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &505352813
@@ -1070,18 +1080,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &535581103 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5978289649617500514, guid: 5443b7c3b8fab664ab905ddd92ad7b9e,
-    type: 3}
-  m_PrefabInstance: {fileID: 6102228728597871409}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72a81dbb7651edd47a2b0c7d6ac43ac8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &699435615
 GameObject:
   m_ObjectHideFlags: 0
@@ -1691,6 +1689,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1494936506 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6843847377639573722, guid: 5443b7c3b8fab664ab905ddd92ad7b9e,
+    type: 3}
+  m_PrefabInstance: {fileID: 6102228728597871409}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1494936507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494936506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60af7ce5de0b2874b90cb84c990ea844, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1520127572
 GameObject:
   m_ObjectHideFlags: 0
@@ -2521,7 +2537,8 @@ PrefabInstance:
       propertyPath: m_SurfaceLevel
       value: 500
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5392907770581438117, guid: 7d24568a4e68f6944880487256403117, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 7d24568a4e68f6944880487256403117, type: 3}
 --- !u!1001 &1310286882087714075
 PrefabInstance:
@@ -2704,7 +2721,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: PortalChange
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 83700e673f4fb2c4ab163777cae90f54, type: 3}
 --- !u!1001 &6102228728597871409
 PrefabInstance:
@@ -2773,5 +2791,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dimension Controller
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5978289649617500514, guid: 5443b7c3b8fab664ab905ddd92ad7b9e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 5443b7c3b8fab664ab905ddd92ad7b9e, type: 3}

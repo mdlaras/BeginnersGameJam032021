@@ -92,10 +92,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 8001871764445782127}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f76345b0f5530ed42a023fb215a238f7, type: 3}
+  m_Script: {fileID: 11500000, guid: e358fbb24d1579444aaaedef9b5cb6e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTransport: 1
+  isTransport: 0
   isChanger: 0
   isPortalIn: 0
   portalOut: {fileID: 0}

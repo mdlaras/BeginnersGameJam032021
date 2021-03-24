@@ -144,17 +144,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 1505129293362559258}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b45dfc5bbfd948d49857e3579f1ef2cf, type: 3}
+  m_Script: {fileID: 11500000, guid: 54bbd12fb8407f844bed870580bd95e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isGrounded: 0
-  jumpHeight: 180
+  jumpHeight: 100
   velocity: 5
   foot: {fileID: 6521864855095164841}
-  footRadius: 0.2
+  footRadius: 3
   mask:
     serializedVersion: 2
-    m_Bits: 55
+    m_Bits: 0
 --- !u!114 &1505129293362559253
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -168,7 +168,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectSprite: {fileID: 1505129293362559259}
-  dimensionManager: {fileID: 0}
+  dimensionManager: {fileID: 5978289649617500514, guid: 5443b7c3b8fab664ab905ddd92ad7b9e,
+    type: 3}
   isPlayer: 1
   boxCollider2D: {fileID: 1505129293362559248}
   currentDimension: 1
