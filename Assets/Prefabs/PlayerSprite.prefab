@@ -155,6 +155,7 @@ MonoBehaviour:
   mask:
     serializedVersion: 2
     m_Bits: 0
+  eye: {fileID: 756658997630135289}
 --- !u!114 &1505129293362559253
 MonoBehaviour:
   m_ObjectHideFlags: 0
