@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 ﻿  
 using System.Collections;
+=======
+﻿using System.Collections;
+>>>>>>> parent of e7aee25 (Merge branch 'master' of https://github.com/mdlaras/BeginnersGameJam032021)
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -77,4 +81,7 @@ public class DimensionSwitch : MonoBehaviour
         }
     }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of e7aee25 (Merge branch 'master' of https://github.com/mdlaras/BeginnersGameJam032021)
