@@ -1115,7 +1115,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a2748dcacfa3ff47978ce21416b843d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Stage_2_Prototype
+  sceneName: Stage_3_Prototype
   isSave: 1
   isLoad: 0
 --- !u!4 &776249441 stripped
