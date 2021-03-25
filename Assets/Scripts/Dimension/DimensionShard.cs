@@ -5,8 +5,6 @@ public class DimensionShard : MonoBehaviour
     public int shard;
         
     private GameObject _gameManager;
-    
-    private int _dimensionShard;
 
     private void Start()
     {
@@ -56,12 +54,11 @@ public class DimensionShard : MonoBehaviour
                     Debug.Log("dimension not found");
                     break;
             }
-            
-            _dimensionShard++;
-            
-            SaveManager.Instance.activeSave.dimensionShard = _dimensionShard;
 
             _gameManager.GetComponent<GameManager>().dimensionShard++;
+            
+            SaveManager.Instance.activeSave.dimensionShard = _gameManager.GetComponent<GameManager>().dimensionShard;
+            
             Debug.Log(_gameManager);
         }
     }

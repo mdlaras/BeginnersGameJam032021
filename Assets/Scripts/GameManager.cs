@@ -1,9 +1,18 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
     public int dimensionShard;
-    
+
+    private void Start()
+    {
+        if (SaveManager.Instance.hasLoaded)
+        {
+            dimensionShard = SaveManager.Instance.activeSave.dimensionShard;
+        }
+    }
+
     private void Awake()
     {
         GameObject[] objs = GameObject.FindGameObjectsWithTag("GameManager");

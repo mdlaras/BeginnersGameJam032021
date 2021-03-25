@@ -2,28 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3b6ff8a-ee3a-499f-ab77-8d44b56f10ae" name="Default Changelist" comment="add game manager">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BeginnersGameJam032021/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BeginnersGameJam032021/.idea/discord.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BeginnersGameJam032021/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BeginnersGameJam032021/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BeginnersGameJam032021/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BeginnersGameJam032021/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BeginnersGameJam032021/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DimensionShard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DimensionShard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DimensionShardUI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DimensionShardUI.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Portal.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Portal.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SaveManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SaveManager.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Stage_1_Prototype.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Stage_1_Prototype.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Stage_2_Prototype.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Stage_2_Prototype.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dimension.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DimensionSwitch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DimensionSwitch.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/World_Map.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/World_Map.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BeginnersGameJam032021/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BeginnersGameJam032021/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dimension/DimensionShard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dimension/DimensionShard.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Portal.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +18,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DimensionShardUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SaveManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Portal.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -42,10 +25,11 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/DimensionSwitch.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SaveManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DimensionShardUI.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DimensionShard.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Portal.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Dimension/DimensionShard.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1qC5PiY39X0072QG5hRSMPl6RCD" />
@@ -99,6 +83,7 @@
       <updated>1616570733188</updated>
       <workItem from="1616570740567" duration="211000" />
       <workItem from="1616571037020" duration="970000" />
+      <workItem from="1616680860617" duration="399000" />
     </task>
     <task id="LOCAL-00001" summary="add game manager">
       <created>1616570868367</created>
