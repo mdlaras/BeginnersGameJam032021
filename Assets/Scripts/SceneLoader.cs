@@ -8,4 +8,9 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
+
+    public void GoToTitle()
+    {
+        SceneManager.LoadScene("TitleScreen");
+    }
 }
