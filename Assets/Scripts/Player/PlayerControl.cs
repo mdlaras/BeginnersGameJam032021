@@ -18,13 +18,22 @@ public class PlayerControl : MonoBehaviour
 
     void AnimationControl()
     {
+        var gameAnimator = gameObject.GetComponent<Animator>();
         if(Input.GetKeyUp(KeyCode.LeftArrow) || Input.GetKeyUp(KeyCode.RightArrow))
         {
-            gameObject.GetComponent<Animator>().SetBool("isMoving", false);
+            gameAnimator.SetBool("isMoving", false);
         }
         else if(Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow))
         {
-            gameObject.GetComponent<Animator>().SetBool("isMoving", true);
+            gameAnimator.SetBool("isMoving", true);
+        }
+        else if(Input.GetKey(KeyCode.Space))
+        {
+            gameAnimator.SetBool("isJumping", true);
+        }
+        else if(isGrounded)
+        {
+            gameAnimator.SetBool("isJumping", false);
         }
     }
     // Update is called once per frame
