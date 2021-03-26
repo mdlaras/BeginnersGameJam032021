@@ -11,14 +11,15 @@ public class PlayerControl : MonoBehaviour
     [SerializeField] float footRadius;
     [SerializeField] LayerMask mask;
     [SerializeField] SpriteRenderer eye;
+    private Animator gameAnimator;
     // Start is called before the first frame update
     void Start()
     {
+        gameAnimator = gameObject.GetComponent<Animator>();
     }
 
     void AnimationControl()
     {
-        var gameAnimator = gameObject.GetComponent<Animator>();
         if(Input.GetKeyUp(KeyCode.LeftArrow) || Input.GetKeyUp(KeyCode.RightArrow))
         {
             gameAnimator.SetBool("isMoving", false);
@@ -26,14 +27,6 @@ public class PlayerControl : MonoBehaviour
         else if(Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow))
         {
             gameAnimator.SetBool("isMoving", true);
-        }
-        else if(Input.GetKey(KeyCode.Space))
-        {
-            gameAnimator.SetBool("isJumping", true);
-        }
-        else if(isGrounded)
-        {
-            gameAnimator.SetBool("isJumping", false);
         }
     }
     // Update is called once per frame
@@ -58,7 +51,9 @@ public class PlayerControl : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
             GetComponent<Rigidbody2D>().AddForce(new Vector2(0,jumpHeight), ForceMode2D.Force);
+            gameAnimator.SetTrigger("Jump");
         }
+        gameAnimator.SetBool("isOnAir", !isGrounded);
         
     }
 }
