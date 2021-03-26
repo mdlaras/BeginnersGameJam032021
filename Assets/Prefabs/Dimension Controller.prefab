@@ -43,3 +43,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60af7ce5de0b2874b90cb84c990ea844, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  firstDimensionColor:
+    serializedVersion: 2
+    rgba: 4291201342
+  secondDimensionColor:
+    serializedVersion: 2
+    rgba: 4282270406

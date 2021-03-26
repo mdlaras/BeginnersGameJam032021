@@ -11,6 +11,7 @@ public class DimensionSwitch : MonoBehaviour
 
     public Dimension currentDimension;
 
+  
     public enum Dimension
     {
         Neutral,
@@ -63,6 +64,7 @@ public class DimensionSwitch : MonoBehaviour
 
     void Start()
     {
+        dimensionManager = GameObject.FindObjectOfType<DimensionManager>();
         ChangeColor();
         AdjustCollider(FindObjectOfType<PlayerControl>().GetComponent<DimensionSwitch>().currentDimension);
     }
