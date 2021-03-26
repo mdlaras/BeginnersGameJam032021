@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3b6ff8a-ee3a-499f-ab77-8d44b56f10ae" name="Default Changelist" comment="fix dimensional shard UI" />
+    <list default="true" id="e3b6ff8a-ee3a-499f-ab77-8d44b56f10ae" name="Default Changelist" comment="world map">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Level.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Level/LevelStage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Level/LevelStage.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BeginnersGameJam032021/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BeginnersGameJam032021/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BeginnersGameJam032021/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BeginnersGameJam032021/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BeginnersGameJam032021/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BeginnersGameJam032021/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/World_Map.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/World_Map.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +32,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Portal.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Dimension/DimensionShard.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Level/LevelStage.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1qC5PiY39X0072QG5hRSMPl6RCD" />
@@ -77,6 +87,8 @@
       <workItem from="1616570740567" duration="211000" />
       <workItem from="1616571037020" duration="970000" />
       <workItem from="1616680860617" duration="575000" />
+      <workItem from="1616681603558" duration="384000" />
+      <workItem from="1616753439863" duration="2479000" />
     </task>
     <task id="LOCAL-00001" summary="add game manager">
       <created>1616570868367</created>
@@ -99,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616681321524</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="world map">
+      <created>1616681969800</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1616681969800</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +143,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="add game manager" />
     <MESSAGE value="fix dimensional shard UI" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix dimensional shard UI" />
+    <MESSAGE value="world map" />
+    <option name="LAST_COMMIT_MESSAGE" value="world map" />
   </component>
 </project>

@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 110750771}
   - component: {fileID: 110750770}
   - component: {fileID: 110750769}
+  - component: {fileID: 110750772}
   m_Layer: 5
   m_Name: stage (9)
   m_TagString: Untagged
@@ -198,11 +199,22 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 110750770}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 110750772}
+        m_MethodName: LoadScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &110750770
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -240,6 +252,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 110750767}
   m_CullTransparentMesh: 0
+--- !u!114 &110750772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 110750767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0f2b77b9a6b0d546a3280b39bd1296a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shardTotal: 3
+  sceneName: 
+  stageButton: {fileID: 110750769}
+  textButton: {fileID: 901467248}
 --- !u!1 &139446993
 GameObject:
   m_ObjectHideFlags: 0
@@ -330,6 +358,7 @@ GameObject:
   - component: {fileID: 283462018}
   - component: {fileID: 283462017}
   - component: {fileID: 283462016}
+  - component: {fileID: 283462019}
   m_Layer: 5
   m_Name: stage (4)
   m_TagString: Untagged
@@ -395,11 +424,22 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 283462017}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 283462019}
+        m_MethodName: LoadScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &283462017
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -437,6 +477,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 283462014}
   m_CullTransparentMesh: 0
+--- !u!114 &283462019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 283462014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0f2b77b9a6b0d546a3280b39bd1296a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shardTotal: 2
+  sceneName: 
+  stageButton: {fileID: 283462016}
+  textButton: {fileID: 139446995}
 --- !u!1 &301952887
 GameObject:
   m_ObjectHideFlags: 0
@@ -449,6 +505,7 @@ GameObject:
   - component: {fileID: 301952891}
   - component: {fileID: 301952890}
   - component: {fileID: 301952889}
+  - component: {fileID: 301952892}
   m_Layer: 5
   m_Name: stage (6)
   m_TagString: Untagged
@@ -514,11 +571,22 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 301952890}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 301952892}
+        m_MethodName: LoadScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &301952890
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -556,6 +624,72 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 301952887}
   m_CullTransparentMesh: 0
+--- !u!114 &301952892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 301952887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0f2b77b9a6b0d546a3280b39bd1296a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shardTotal: 4
+  sceneName: 
+  stageButton: {fileID: 301952889}
+  textButton: {fileID: 1164923497}
+--- !u!1 &324517449
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 324517451}
+  - component: {fileID: 324517450}
+  m_Layer: 0
+  m_Name: SaveManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &324517450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 324517449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 473f542c979891244894d6f484d00261, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activeSave:
+    saveName: save1
+    dimensionShard: 2
+    shard1: 1
+    shard2: 1
+    shard3: 1
+  hasLoaded: 1
+--- !u!4 &324517451
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 324517449}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &446066913
 GameObject:
   m_ObjectHideFlags: 0
@@ -651,6 +785,7 @@ GameObject:
   - component: {fileID: 730658263}
   - component: {fileID: 730658262}
   - component: {fileID: 730658261}
+  - component: {fileID: 730658264}
   m_Layer: 5
   m_Name: stage (5)
   m_TagString: Untagged
@@ -716,11 +851,22 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 730658262}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 730658264}
+        m_MethodName: LoadScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &730658262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -758,6 +904,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 730658259}
   m_CullTransparentMesh: 0
+--- !u!114 &730658264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 730658259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0f2b77b9a6b0d546a3280b39bd1296a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shardTotal: 3
+  sceneName: 
+  stageButton: {fileID: 730658261}
+  textButton: {fileID: 753030170}
 --- !u!1 &753030168
 GameObject:
   m_ObjectHideFlags: 0
@@ -848,6 +1010,7 @@ GameObject:
   - component: {fileID: 845050251}
   - component: {fileID: 845050250}
   - component: {fileID: 845050249}
+  - component: {fileID: 845050252}
   m_Layer: 5
   m_Name: stage (1)
   m_TagString: Untagged
@@ -913,11 +1076,22 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 845050250}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 845050252}
+        m_MethodName: LoadScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &845050250
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -955,6 +1129,116 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 845050247}
   m_CullTransparentMesh: 0
+--- !u!114 &845050252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 845050247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0f2b77b9a6b0d546a3280b39bd1296a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shardTotal: 1
+  sceneName: 
+  stageButton: {fileID: 845050249}
+  textButton: {fileID: 969477996}
+--- !u!1 &875436462
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 875436463}
+  - component: {fileID: 875436465}
+  - component: {fileID: 875436464}
+  - component: {fileID: 875436466}
+  m_Layer: 5
+  m_Name: DimensionalShard
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &875436463
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 875436462}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1332849391}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 228, y: -58}
+  m_SizeDelta: {x: 383.7744, y: 55.820076}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &875436464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 875436462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 30
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Dimension Shard: 0
+
+'
+--- !u!222 &875436465
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 875436462}
+  m_CullTransparentMesh: 0
+--- !u!114 &875436466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 875436462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a52b5408067e3af4a8225e15e0befb08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dimensionShard: {fileID: 875436464}
 --- !u!1 &901467246
 GameObject:
   m_ObjectHideFlags: 0
@@ -1033,6 +1317,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 901467246}
   m_CullTransparentMesh: 0
+--- !u!1 &956942852
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 956942854}
+  - component: {fileID: 956942853}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &956942853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 956942852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63f2eeccca49f5f4199baff966d9baf7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dimensionShard: 0
+--- !u!4 &956942854
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 956942852}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &969477994
 GameObject:
   m_ObjectHideFlags: 0
@@ -1524,6 +1852,7 @@ RectTransform:
   - {fileID: 1832814533}
   - {fileID: 110750768}
   - {fileID: 2099294961}
+  - {fileID: 875436463}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1610,6 +1939,7 @@ GameObject:
   - component: {fileID: 1615844589}
   - component: {fileID: 1615844588}
   - component: {fileID: 1615844587}
+  - component: {fileID: 1615844590}
   m_Layer: 5
   m_Name: stage (2)
   m_TagString: Untagged
@@ -1675,11 +2005,22 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1615844588}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1615844590}
+        m_MethodName: LoadScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1615844588
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1717,6 +2058,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1615844585}
   m_CullTransparentMesh: 0
+--- !u!114 &1615844590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1615844585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0f2b77b9a6b0d546a3280b39bd1296a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shardTotal: 2
+  sceneName: 
+  stageButton: {fileID: 1615844587}
+  textButton: {fileID: 2058599402}
 --- !u!1 &1649716102
 GameObject:
   m_ObjectHideFlags: 0
@@ -1761,7 +2118,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1649716102}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
@@ -1885,6 +2242,7 @@ GameObject:
   - component: {fileID: 1832814536}
   - component: {fileID: 1832814535}
   - component: {fileID: 1832814534}
+  - component: {fileID: 1832814537}
   m_Layer: 5
   m_Name: stage (8)
   m_TagString: Untagged
@@ -1950,11 +2308,22 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1832814535}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1832814537}
+        m_MethodName: LoadScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1832814535
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1992,6 +2361,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1832814532}
   m_CullTransparentMesh: 0
+--- !u!114 &1832814537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1832814532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0f2b77b9a6b0d546a3280b39bd1296a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shardTotal: 4
+  sceneName: 
+  stageButton: {fileID: 1832814534}
+  textButton: {fileID: 1772473269}
 --- !u!1 &1897471753
 GameObject:
   m_ObjectHideFlags: 0
@@ -2004,6 +2389,7 @@ GameObject:
   - component: {fileID: 1897471757}
   - component: {fileID: 1897471756}
   - component: {fileID: 1897471755}
+  - component: {fileID: 1897471758}
   m_Layer: 5
   m_Name: stage
   m_TagString: Untagged
@@ -2073,7 +2459,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1897471756}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1897471758}
+        m_MethodName: LoadScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1897471756
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2111,6 +2508,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1897471753}
   m_CullTransparentMesh: 0
+--- !u!114 &1897471758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1897471753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0f2b77b9a6b0d546a3280b39bd1296a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shardTotal: 0
+  sceneName: Stage_1_Prototype
+  stageButton: {fileID: 1897471755}
+  textButton: {fileID: 1649716104}
 --- !u!1 &1991397746
 GameObject:
   m_ObjectHideFlags: 0
@@ -2123,6 +2536,7 @@ GameObject:
   - component: {fileID: 1991397750}
   - component: {fileID: 1991397749}
   - component: {fileID: 1991397748}
+  - component: {fileID: 1991397751}
   m_Layer: 5
   m_Name: stage (3)
   m_TagString: Untagged
@@ -2188,11 +2602,22 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1991397749}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1991397751}
+        m_MethodName: LoadScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1991397749
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2230,6 +2655,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1991397746}
   m_CullTransparentMesh: 0
+--- !u!114 &1991397751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1991397746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0f2b77b9a6b0d546a3280b39bd1296a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shardTotal: 3
+  sceneName: 
+  stageButton: {fileID: 1991397748}
+  textButton: {fileID: 1212392175}
 --- !u!1 &2058599400
 GameObject:
   m_ObjectHideFlags: 0
@@ -2320,6 +2761,7 @@ GameObject:
   - component: {fileID: 2099294964}
   - component: {fileID: 2099294963}
   - component: {fileID: 2099294962}
+  - component: {fileID: 2099294965}
   m_Layer: 5
   m_Name: stage (10)
   m_TagString: Untagged
@@ -2385,11 +2827,22 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 2099294963}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2099294965}
+        m_MethodName: LoadScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2099294963
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2427,6 +2880,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2099294960}
   m_CullTransparentMesh: 0
+--- !u!114 &2099294965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2099294960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0f2b77b9a6b0d546a3280b39bd1296a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shardTotal: 30
+  sceneName: 
+  stageButton: {fileID: 2099294962}
+  textButton: {fileID: 1230005719}
 --- !u!1 &2144280888
 GameObject:
   m_ObjectHideFlags: 0
@@ -2439,6 +2908,7 @@ GameObject:
   - component: {fileID: 2144280892}
   - component: {fileID: 2144280891}
   - component: {fileID: 2144280890}
+  - component: {fileID: 2144280893}
   m_Layer: 5
   m_Name: stage (7)
   m_TagString: Untagged
@@ -2504,11 +2974,22 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 2144280891}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2144280893}
+        m_MethodName: LoadScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2144280891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2546,3 +3027,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2144280888}
   m_CullTransparentMesh: 0
+--- !u!114 &2144280893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144280888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0f2b77b9a6b0d546a3280b39bd1296a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shardTotal: 5
+  sceneName: 
+  stageButton: {fileID: 2144280890}
+  textButton: {fileID: 1031627473}
