@@ -21,11 +21,11 @@ public class DimensionSwitch : MonoBehaviour
     {
         if(currentDimension == Dimension.First)
         {
-            objectSprite.color = new Color32(62,137,198, 255);
+            objectSprite.color = dimensionManager.firstDimensionColor;
         }
         else if(currentDimension == Dimension.Second)
         {
-            objectSprite.color = new Color32(198,66,62, 255);
+            objectSprite.color = dimensionManager.secondDimensionColor;
         }
         else if(currentDimension == Dimension.Neutral)
         {
