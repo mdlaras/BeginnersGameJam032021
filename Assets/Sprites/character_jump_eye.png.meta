@@ -1,25 +1,22 @@
 fileFormatVersion: 2
-guid: 6f7f3066651cae34787fbae3ecc0f88b
+guid: f597bf0636e555545b42560b1eeedbdc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2699880828772692584
-    second: Character_idle_eye_0
+      213: 4907500776803636110
+    second: character_jump_eye_0
   - first:
-      213: -8600830619065857865
-    second: Character_idle_eye_1
+      213: -3527915691445311521
+    second: character_jump_eye_1
   - first:
-      213: 4937053722119438599
-    second: Character_idle_eye_2
+      213: 8401057111827360871
+    second: character_jump_eye_2
   - first:
-      213: 1380891887638961817
-    second: Character_idle_eye_3
+      213: 2589440023627896226
+    second: character_jump_eye_3
   - first:
-      213: -7035030485253299237
-    second: Character_idle_eye_4
-  - first:
-      213: 8555562961346388685
-    second: Character_idle_eye_5
+      213: -3919609591166953932
+    second: character_jump_eye_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -49,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: -1
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -102,18 +99,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Windows Store Apps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -141,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Character_idle_eye_0
+      name: character_jump_eye_0
       rect:
         serializedVersion: 2
         x: 0
@@ -155,14 +140,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89dcd19d0b8188ad0800000000000000
-      internalID: -2699880828772692584
+      spriteID: e83955894f1fa1440800000000000000
+      internalID: 4907500776803636110
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_idle_eye_1
+      name: character_jump_eye_1
       rect:
         serializedVersion: 2
         x: 64
@@ -176,14 +161,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b8c6410f16b3a880800000000000000
-      internalID: -8600830619065857865
+      spriteID: fd720edce535a0fc0800000000000000
+      internalID: -3527915691445311521
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_idle_eye_2
+      name: character_jump_eye_2
       rect:
         serializedVersion: 2
         x: 128
@@ -197,14 +182,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70103ffd330f38440800000000000000
-      internalID: 4937053722119438599
+      spriteID: 76c2d38beec869470800000000000000
+      internalID: 8401057111827360871
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_idle_eye_3
+      name: character_jump_eye_3
       rect:
         serializedVersion: 2
         x: 192
@@ -218,14 +203,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99e50f30bd9e92310800000000000000
-      internalID: 1380891887638961817
+      spriteID: 2a515876bf98fe320800000000000000
+      internalID: 2589440023627896226
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_idle_eye_4
+      name: character_jump_eye_4
       rect:
         serializedVersion: 2
         x: 256
@@ -239,29 +224,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd3ee6efb0d8e5e90800000000000000
-      internalID: -7035030485253299237
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Character_idle_eye_5
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dc26a8c1f277bb670800000000000000
-      internalID: 8555562961346388685
+      spriteID: 436974408dfba99c0800000000000000
+      internalID: -3919609591166953932
       vertices: []
       indices: 
       edges: []
