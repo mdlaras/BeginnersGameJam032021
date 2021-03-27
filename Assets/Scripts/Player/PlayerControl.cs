@@ -11,6 +11,11 @@ public class PlayerControl : MonoBehaviour
     [SerializeField] float footRadius;
     [SerializeField] LayerMask mask;
     [SerializeField] SpriteRenderer eye;
+
+    [SerializeField] AudioSource runAudio;
+    [SerializeField] AudioSource jumpAudio;
+    [SerializeField] AudioSource inAirAudio;
+
     private Animator gameAnimator;
     // Start is called before the first frame update
     void Start()
@@ -23,6 +28,7 @@ public class PlayerControl : MonoBehaviour
         if(Input.GetKeyUp(KeyCode.LeftArrow) || Input.GetKeyUp(KeyCode.RightArrow))
         {
             gameAnimator.SetBool("isMoving", false);
+            runAudio.Stop();
         }
         else if(Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow))
         {
@@ -34,7 +40,12 @@ public class PlayerControl : MonoBehaviour
     {
         AnimationControl();
         isGrounded = Physics2D.OverlapCircle(foot.position, footRadius, mask) != null ? true : false;
-       
+
+        if(gameAnimator.GetBool("isMoving"))
+        {
+            runAudio.Play();
+            runAudio.loop = true;
+        }
         if(Input.GetKey(KeyCode.LeftArrow))
         {
             transform.localPosition += new Vector3(-velocity,0,0) * Time.deltaTime;
@@ -46,14 +57,15 @@ public class PlayerControl : MonoBehaviour
             transform.localPosition += new Vector3(velocity,0,0) * Time.deltaTime;
             gameObject.GetComponent<SpriteRenderer>().flipX = false;
             eye.flipX = false;
-            
         }
         if(Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
             GetComponent<Rigidbody2D>().AddForce(new Vector2(0,jumpHeight), ForceMode2D.Force);
             gameAnimator.SetTrigger("Jump");
+            jumpAudio.Play();
         }
         gameAnimator.SetBool("isOnAir", !isGrounded);
         
+
     }
 }

@@ -3,7 +3,6 @@
 public class DimensionShard : MonoBehaviour
 {
     public int shard;
-        
     private GameObject _gameManager;
 
     private void Start()
@@ -38,7 +37,7 @@ public class DimensionShard : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             gameObject.SetActive(false);
-
+            
             switch (shard)
             {
                 case 1:

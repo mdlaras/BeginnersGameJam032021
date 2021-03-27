@@ -8,6 +8,7 @@ public class DimensionSwitch : MonoBehaviour
     [SerializeField] DimensionManager dimensionManager;
     [SerializeField] bool isPlayer;
     [SerializeField] BoxCollider2D boxCollider2D;
+    [SerializeField] AudioSource changeAudio;
 
     public Dimension currentDimension;
 
@@ -75,6 +76,7 @@ public class DimensionSwitch : MonoBehaviour
         {
             SwitchDimension();
             dimensionManager.AdjustTerrain();
+            changeAudio.Play();
         }
     }
 }
