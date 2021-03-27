@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class SpikeController : MonoBehaviour
 {
     GameObject dieScreen;
-    void Start()
+    void Awake()
     {
         dieScreen = GameObject.FindGameObjectWithTag("Finish");
     }
