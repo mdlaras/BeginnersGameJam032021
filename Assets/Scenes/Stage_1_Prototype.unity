@@ -5675,7 +5675,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activeSave:
     saveName: stage1
-    dimensionShard: 0
     shard1: 1
     shard2: 1
     shard3: 1
@@ -6439,6 +6438,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5443b7c3b8fab664ab905ddd92ad7b9e, type: 3}
+--- !u!1001 &6387056457115620685
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6387056455612310162, guid: 0678b9107c781664cb07cacc7644fee4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387056455612310162, guid: 0678b9107c781664cb07cacc7644fee4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387056455612310162, guid: 0678b9107c781664cb07cacc7644fee4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387056455612310162, guid: 0678b9107c781664cb07cacc7644fee4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387056455612310162, guid: 0678b9107c781664cb07cacc7644fee4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387056455612310162, guid: 0678b9107c781664cb07cacc7644fee4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387056455612310162, guid: 0678b9107c781664cb07cacc7644fee4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387056455612310162, guid: 0678b9107c781664cb07cacc7644fee4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387056455612310162, guid: 0678b9107c781664cb07cacc7644fee4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387056455612310162, guid: 0678b9107c781664cb07cacc7644fee4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387056455612310162, guid: 0678b9107c781664cb07cacc7644fee4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387056455612310163, guid: 0678b9107c781664cb07cacc7644fee4,
+        type: 3}
+      propertyPath: m_Name
+      value: ShardManager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0678b9107c781664cb07cacc7644fee4, type: 3}
 --- !u!1001 &6683034151036491453
 PrefabInstance:
   m_ObjectHideFlags: 0

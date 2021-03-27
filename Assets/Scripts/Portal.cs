@@ -21,6 +21,10 @@ public class Portal : MonoBehaviour
                 SaveManager.Instance.Save();
                 
                 PlayerPrefs.SetInt(PlayerDataPrefKey, game.dimensionShard);
+
+                SaveDimensionalShard.Instance.activeSave.dimensionShard = game.dimensionShard;
+                
+                SaveDimensionalShard.Instance.Save();
             }
 
             if (isLoad)

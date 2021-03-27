@@ -16,6 +16,7 @@
           <e p="GameManager.cs" t="Include" />
           <e p="Level" t="Include">
             <e p="LevelStage.cs" t="Include" />
+            <e p="ShardsOnLevel.cs" t="Include" />
           </e>
           <e p="PanelController.cs" t="Include" />
           <e p="Player" t="Include">
@@ -25,8 +26,10 @@
             <e p="PortalControl.cs" t="Include" />
           </e>
           <e p="Portal.cs" t="Include" />
+          <e p="SaveDimensionalShard.cs" t="Include" />
           <e p="SaveManager.cs" t="Include" />
           <e p="SceneLoader.cs" t="Include" />
+          <e p="ShardsSaveData.cs" t="Include" />
           <e p="SpikeController.cs" t="Include" />
         </e>
         <e p="Shader" t="Include">

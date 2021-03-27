@@ -761,7 +761,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activeSave:
     saveName: save1
-    dimensionShard: 0
     shard1: 1
     shard2: 1
     shard3: 1
@@ -1739,7 +1738,7 @@ GameObject:
   - component: {fileID: 956942853}
   m_Layer: 0
   m_Name: GameManager
-  m_TagString: Untagged
+  m_TagString: GameManager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

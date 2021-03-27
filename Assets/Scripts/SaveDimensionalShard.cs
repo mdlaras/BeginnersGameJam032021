@@ -1,10 +1,10 @@
-﻿using UnityEngine;
-using System.IO;
+﻿using System.IO;
 using System.Xml.Serialization;
+using UnityEngine;
 
-public class SaveManager : MonoBehaviour
+public class SaveDimensionalShard : MonoBehaviour
 {
-    public static SaveManager Instance;
+    public static SaveDimensionalShard Instance;
     
     public SaveData activeSave;
 
@@ -75,10 +75,6 @@ public class SaveManager : MonoBehaviour
     {
         public string saveName;
 
-        public bool shard1 = true;
-
-        public bool shard2 = true;
-
-        public bool shard3 = true;
+        public int dimensionShard;
     }
 }

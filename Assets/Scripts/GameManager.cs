@@ -16,6 +16,11 @@ public class GameManager : MonoBehaviour
             var defaultDimensionalShard = PlayerPrefs.GetInt(PlayerDataPrefKey);
             dimensionShard = defaultDimensionalShard;
         }
+
+        if (SaveDimensionalShard.Instance.hasLoaded)
+        {
+            dimensionShard = SaveDimensionalShard.Instance.activeSave.dimensionShard;
+        }
         
         GameObject[] objs = GameObject.FindGameObjectsWithTag("GameManager");
 
