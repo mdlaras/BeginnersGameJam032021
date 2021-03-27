@@ -34,6 +34,7 @@ public class DimensionShard : MonoBehaviour
     
     private void OnTriggerEnter2D(Collider2D other)
     {
+        var game = _gameManager.GetComponent<GameManager>();
         if (other.CompareTag("Player"))
         {
             gameObject.SetActive(false);
@@ -54,10 +55,11 @@ public class DimensionShard : MonoBehaviour
                     break;
             }
 
-            _gameManager.GetComponent<GameManager>().dimensionShard++;
+            game.dimensionShard++;
             
-            SaveManager.Instance.activeSave.dimensionShard = _gameManager.GetComponent<GameManager>().dimensionShard;
+            SaveManager.Instance.activeSave.dimensionShard = game.dimensionShard;
             
+            game.PlayCollectShardSound();
             Debug.Log(_gameManager);
         }
     }

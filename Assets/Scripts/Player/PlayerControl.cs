@@ -28,7 +28,7 @@ public class PlayerControl : MonoBehaviour
         if(Input.GetKeyUp(KeyCode.LeftArrow) || Input.GetKeyUp(KeyCode.RightArrow))
         {
             gameAnimator.SetBool("isMoving", false);
-            runAudio.Stop();
+            runAudio.Pause();
         }
         else if(Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow))
         {

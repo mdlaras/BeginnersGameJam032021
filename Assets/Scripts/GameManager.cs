@@ -4,6 +4,8 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public int dimensionShard;
+    [SerializeField] AudioSource changeStageSound;
+    [SerializeField] AudioSource shardCollectSound;
 
     private void Start()
     {
@@ -23,5 +25,15 @@ public class GameManager : MonoBehaviour
         }
 
         DontDestroyOnLoad(gameObject);
+    }
+
+    public void PlayStageChangeSound()
+    {
+        changeStageSound.Play();
+    }
+
+    public void PlayCollectShardSound()
+    {
+        shardCollectSound.Play();
     }
 }

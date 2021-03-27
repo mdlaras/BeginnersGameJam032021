@@ -10,6 +10,7 @@ public class Portal : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        var game = FindObjectOfType<GameManager>();
         if (other.CompareTag("Player"))
         {
             if (isSave)
@@ -23,6 +24,7 @@ public class Portal : MonoBehaviour
             }
                 
             SceneManager.LoadScene(sceneName);
+            game.PlayStageChangeSound();
         }
     }
 }
