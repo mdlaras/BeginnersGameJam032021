@@ -3,19 +3,24 @@ using UnityEngine.SceneManagement;
 
 public class Portal : MonoBehaviour
 {
+    private const string PlayerDataPrefKey = "PlayerData";
+    
     public string sceneName;
 
-    public bool isSave = false;
-    public bool isLoad = false;
+    public bool isSave;
+    public bool isLoad;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         var game = FindObjectOfType<GameManager>();
+        
         if (other.CompareTag("Player"))
         {
             if (isSave)
             {
                 SaveManager.Instance.Save();
+                
+                PlayerPrefs.SetInt(PlayerDataPrefKey, game.dimensionShard);
             }
 
             if (isLoad)
@@ -24,6 +29,7 @@ public class Portal : MonoBehaviour
             }
                 
             SceneManager.LoadScene(sceneName);
+            
             game.PlayStageChangeSound();
         }
     }

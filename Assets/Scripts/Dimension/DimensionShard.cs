@@ -2,8 +2,6 @@
 
 public class DimensionShard : MonoBehaviour
 {
-    private const string PlayerDataPrefKey = "PlayerData";
-    
     public int shard;
     
     private GameObject _gameManager;
@@ -60,10 +58,9 @@ public class DimensionShard : MonoBehaviour
             }
 
             game.dimensionShard++;
-            
-            PlayerPrefs.SetInt(PlayerDataPrefKey, game.dimensionShard);
-            
+
             game.PlayCollectShardSound();
+            
             Debug.Log(_gameManager);
         }
     }

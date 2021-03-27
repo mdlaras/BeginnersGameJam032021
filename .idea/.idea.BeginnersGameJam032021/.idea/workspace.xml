@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3b6ff8a-ee3a-499f-ab77-8d44b56f10ae" name="Default Changelist" comment="world map">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Level/ShardsOnLevel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Level/ShardsOnLevel.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ShardsSaveData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ShardsSaveData.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BeginnersGameJam032021/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BeginnersGameJam032021/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/World_Map.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/World_Map.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SaveManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SaveManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dimension/DimensionShard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dimension/DimensionShard.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Portal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Portal.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +28,12 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/DimensionSwitch.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DimensionShardUI.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DimensionShard.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Portal.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerControl.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Level/LevelStage.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Dimension/DimensionShard.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SaveManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Dimension/DimensionShard.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Portal.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1qC5PiY39X0072QG5hRSMPl6RCD" />
