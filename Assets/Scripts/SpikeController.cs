@@ -7,7 +7,7 @@ public class SpikeController : MonoBehaviour
     GameObject dieScreen;
     void Start()
     {
-        dieScreen = Resources.FindObjectsOfTypeAll<PanelController>()[2].gameObject;
+        dieScreen = GameObject.FindGameObjectWithTag("Finish");
     }
 
     void OnTriggerEnter2D(Collider2D collider2D)
