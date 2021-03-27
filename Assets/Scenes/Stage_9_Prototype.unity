@@ -514,7 +514,7 @@ PrefabInstance:
     - target: {fileID: 4981892883352671180, guid: 7cd22fa22673d28469e5784604b0fefc,
         type: 3}
       propertyPath: sceneName
-      value: Stage_10_Prototype
+      value: World_Map
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7cd22fa22673d28469e5784604b0fefc, type: 3}
@@ -661,7 +661,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &563943751 stripped
 Transform:
@@ -868,7 +868,7 @@ Transform:
   - {fileID: 563943751}
   - {fileID: 126007625}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &693059110
 PrefabInstance:
