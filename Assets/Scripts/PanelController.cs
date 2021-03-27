@@ -5,9 +5,10 @@ using UnityEngine.UI;
 
 public class PanelController : MonoBehaviour
 {
-    public bool isActive = false;
+    public bool isActive;
     void Start()
     {
+        isActive=false;
        gameObject.SetActive(isActive); 
     }
 

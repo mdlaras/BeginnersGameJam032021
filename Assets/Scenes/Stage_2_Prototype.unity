@@ -313,7 +313,7 @@ PrefabInstance:
     - target: {fileID: 4981892883352671177, guid: 7cd22fa22673d28469e5784604b0fefc,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4981892883352671177, guid: 7cd22fa22673d28469e5784604b0fefc,
         type: 3}
@@ -1463,7 +1463,7 @@ PrefabInstance:
     - target: {fileID: 1505129293362559252, guid: 63d8c67d5dda30a478bb0bcf0916c157,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1505129293362559252, guid: 63d8c67d5dda30a478bb0bcf0916c157,
         type: 3}
@@ -1727,6 +1727,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GamePopups
+      objectReference: {fileID: 0}
+    - target: {fileID: 4992803165287374190, guid: cbb487076f33d1e45b8681ec6b07f65e,
+        type: 3}
+      propertyPath: isActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6195525983613756187, guid: cbb487076f33d1e45b8681ec6b07f65e,
+        type: 3}
+      propertyPath: isActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6370987110032886009, guid: cbb487076f33d1e45b8681ec6b07f65e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6552860541348166489, guid: cbb487076f33d1e45b8681ec6b07f65e,
         type: 3}
@@ -2740,7 +2755,7 @@ PrefabInstance:
     - target: {fileID: 3327760836814155023, guid: 5443b7c3b8fab664ab905ddd92ad7b9e,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3327760836814155023, guid: 5443b7c3b8fab664ab905ddd92ad7b9e,
         type: 3}
