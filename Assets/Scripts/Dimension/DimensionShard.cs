@@ -2,7 +2,10 @@
 
 public class DimensionShard : MonoBehaviour
 {
+    private const string PlayerDataPrefKey = "PlayerData";
+    
     public int shard;
+    
     private GameObject _gameManager;
 
     private void Start()
@@ -35,6 +38,7 @@ public class DimensionShard : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         var game = _gameManager.GetComponent<GameManager>();
+        
         if (other.CompareTag("Player"))
         {
             gameObject.SetActive(false);
@@ -57,7 +61,7 @@ public class DimensionShard : MonoBehaviour
 
             game.dimensionShard++;
             
-            SaveManager.Instance.activeSave.dimensionShard = game.dimensionShard;
+            PlayerPrefs.SetInt(PlayerDataPrefKey, game.dimensionShard);
             
             game.PlayCollectShardSound();
             Debug.Log(_gameManager);

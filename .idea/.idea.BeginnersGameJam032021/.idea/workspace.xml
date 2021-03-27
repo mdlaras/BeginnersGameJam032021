@@ -4,8 +4,11 @@
     <list default="true" id="e3b6ff8a-ee3a-499f-ab77-8d44b56f10ae" name="Default Changelist" comment="world map">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BeginnersGameJam032021/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BeginnersGameJam032021/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BeginnersGameJam032021/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BeginnersGameJam032021/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Stage_1_Prototype.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Stage_1_Prototype.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerControl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/World_Map.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/World_Map.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dimension/DimensionShard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dimension/DimensionShard.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level/LevelStage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Level/LevelStage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SaveManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SaveManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +16,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="d7fea5d3f9f832e483b8df5c07256318cc1b91b9" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -22,14 +30,14 @@
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/DimensionSwitch.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/SaveManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DimensionShardUI.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DimensionShard.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Portal.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerControl.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/SaveManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Dimension/DimensionShard.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Level/LevelStage.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerControl.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1qC5PiY39X0072QG5hRSMPl6RCD" />
@@ -90,6 +98,8 @@
       <workItem from="1616681603558" duration="384000" />
       <workItem from="1616753439863" duration="2479000" />
       <workItem from="1616817618160" duration="4872000" />
+      <workItem from="1616843284783" duration="180000" />
+      <workItem from="1616843564220" duration="1239000" />
     </task>
     <task id="LOCAL-00001" summary="add game manager">
       <created>1616570868367</created>
