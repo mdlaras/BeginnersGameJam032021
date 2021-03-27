@@ -13,4 +13,9 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene("TitleScreen");
     }
+
+    public void GoToWorldap()
+    {
+        SceneManager.LoadScene("World_Map");
+    }
 }

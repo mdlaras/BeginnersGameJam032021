@@ -324,7 +324,7 @@ GameObject:
   - component: {fileID: 7827003618973344534}
   - component: {fileID: 7140387016920100504}
   m_Layer: 5
-  m_Name: Credits Button
+  m_Name: Instructions Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1072,7 +1072,7 @@ GameObject:
   - component: {fileID: 1368955697779299831}
   - component: {fileID: 1368955697779299828}
   m_Layer: 5
-  m_Name: Credits Button
+  m_Name: Instructions Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1952,7 +1952,7 @@ GameObject:
   - component: {fileID: 1368955698613259756}
   - component: {fileID: 1368955698613259757}
   m_Layer: 5
-  m_Name: Instructions Button
+  m_Name: World Map Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2057,7 +2057,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1368955698613259756}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 430366236719990066}
+        m_MethodName: GoToWorldap
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1368955698788650292
 GameObject:
   m_ObjectHideFlags: 0
@@ -2799,7 +2810,7 @@ GameObject:
   - component: {fileID: 7912008393997260957}
   - component: {fileID: 9028167921073698497}
   m_Layer: 5
-  m_Name: Credits Button
+  m_Name: Instructions Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3576,7 +3587,7 @@ GameObject:
   - component: {fileID: 524747815764416792}
   - component: {fileID: 3165779662986338619}
   m_Layer: 5
-  m_Name: Instructions Button
+  m_Name: World Map Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3681,7 +3692,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 524747815764416792}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 430366236719990066}
+        m_MethodName: GoToWorldap
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &6648192457589823832
 GameObject:
   m_ObjectHideFlags: 0
@@ -3959,7 +3981,7 @@ GameObject:
   - component: {fileID: 1144281055914905141}
   - component: {fileID: 2684080125167870522}
   m_Layer: 5
-  m_Name: Instructions Button
+  m_Name: World Map Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4064,7 +4086,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1144281055914905141}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 430366236719990066}
+        m_MethodName: GoToWorldap
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &8443126459098353509
 GameObject:
   m_ObjectHideFlags: 0
