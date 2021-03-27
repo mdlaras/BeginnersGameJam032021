@@ -123,7 +123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a2748dcacfa3ff47978ce21416b843d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Stage_3_Prototype
+  sceneName: World_Map
   isSave: 1
   isLoad: 0
 --- !u!95 &5061237465674015269
