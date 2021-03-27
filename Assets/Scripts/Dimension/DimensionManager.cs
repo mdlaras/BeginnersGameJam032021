@@ -9,7 +9,7 @@ public class DimensionManager : MonoBehaviour
 
     [SerializeField] public Color32 firstDimensionColor = new Color32(62, 137, 198, 255);
     [SerializeField] public Color32 secondDimensionColor = new Color32(198,66,62, 255);
-
+    [SerializeField] public Color32 neutralDimensionColor = new Color32(255,255,255, 255);
 
     void Start()
     {

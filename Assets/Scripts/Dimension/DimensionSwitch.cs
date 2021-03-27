@@ -31,7 +31,7 @@ public class DimensionSwitch : MonoBehaviour
         }
         else if(currentDimension == Dimension.Neutral)
         {
-            objectSprite.color = Color.gray;
+            objectSprite.color = dimensionManager.neutralDimensionColor;
         }
     }
 
