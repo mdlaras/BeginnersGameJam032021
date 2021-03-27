@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3b6ff8a-ee3a-499f-ab77-8d44b56f10ae" name="Default Changelist" comment="world map">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dimension/DimensionShard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dimension/DimensionShard.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Portal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Portal.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +31,9 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Level/LevelStage.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SaveManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Dimension/DimensionShard.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Portal.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Dimension/DimensionShard.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1qC5PiY39X0072QG5hRSMPl6RCD" />
