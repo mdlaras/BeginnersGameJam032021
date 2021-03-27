@@ -10584,6 +10584,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5978289649617500514, guid: 5443b7c3b8fab664ab905ddd92ad7b9e,
+        type: 3}
+      propertyPath: firstDimensionColor.rgba
+      value: 4294487635
+      objectReference: {fileID: 0}
+    - target: {fileID: 5978289649617500514, guid: 5443b7c3b8fab664ab905ddd92ad7b9e,
+        type: 3}
+      propertyPath: secondDimensionColor.rgba
+      value: 4282336499
+      objectReference: {fileID: 0}
+    - target: {fileID: 5978289649617500514, guid: 5443b7c3b8fab664ab905ddd92ad7b9e,
+        type: 3}
+      propertyPath: neutralDimensionColor.rgba
+      value: 2109521084
+      objectReference: {fileID: 0}
     - target: {fileID: 6843847377639573722, guid: 5443b7c3b8fab664ab905ddd92ad7b9e,
         type: 3}
       propertyPath: m_Name
@@ -10673,6 +10688,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1535308293764490553, guid: cbb487076f33d1e45b8681ec6b07f65e,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3095251314423965976, guid: cbb487076f33d1e45b8681ec6b07f65e,
         type: 3}
       propertyPath: m_Pivot.x
@@ -10782,6 +10802,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GamePopups
+      objectReference: {fileID: 0}
+    - target: {fileID: 6552860541348166489, guid: cbb487076f33d1e45b8681ec6b07f65e,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cbb487076f33d1e45b8681ec6b07f65e, type: 3}
