@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3b6ff8a-ee3a-499f-ab77-8d44b56f10ae" name="Default Changelist" comment="world map">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BeginnersGameJam032021/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BeginnersGameJam032021/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Spikes.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Spikes.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Stage_1_Prototype.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Stage_1_Prototype.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TitleScreen.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TitleScreen.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/World_Map.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/World_Map.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +96,7 @@
       <workItem from="1616753439863" duration="2479000" />
       <workItem from="1616817618160" duration="4872000" />
       <workItem from="1616843284783" duration="180000" />
-      <workItem from="1616843564220" duration="2026000" />
+      <workItem from="1616843564220" duration="2649000" />
     </task>
     <task id="LOCAL-00001" summary="add game manager">
       <created>1616570868367</created>
