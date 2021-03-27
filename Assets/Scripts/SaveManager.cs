@@ -24,6 +24,8 @@ public class SaveManager : MonoBehaviour
             DeleteSavedData();
             
             PlayerPrefs.DeleteAll();
+            
+            Debug.Log("Deleted");
         }
     }
 
