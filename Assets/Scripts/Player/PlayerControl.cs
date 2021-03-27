@@ -16,6 +16,10 @@ public class PlayerControl : MonoBehaviour
     [SerializeField] AudioSource jumpAudio;
     [SerializeField] AudioSource inAirAudio;
 
+    private float _runCount = 0.3f;
+
+    private bool _isRun; 
+    
     private Animator gameAnimator;
     // Start is called before the first frame update
     void Start()
@@ -29,9 +33,31 @@ public class PlayerControl : MonoBehaviour
         {
             gameAnimator.SetBool("isMoving", false);
             runAudio.Pause();
+
+            _isRun = false;
+            
+            _runCount = 0.3f;
         }
         else if(Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow))
         {
+            if (!_isRun)
+            {
+                StartCoroutine(OnPlayerMove());
+
+                _isRun = true;
+                
+                if (_runCount > 0)
+                {
+                    _runCount -= Time.deltaTime;
+                }
+                else
+                {
+                    _isRun = false;
+
+                    _runCount = 0.3f;
+                }
+            }
+
             gameAnimator.SetBool("isMoving", true);
         }
     }
@@ -40,12 +66,7 @@ public class PlayerControl : MonoBehaviour
     {
         AnimationControl();
         isGrounded = Physics2D.OverlapCircle(foot.position, footRadius, mask) != null ? true : false;
-
-        if(gameAnimator.GetBool("isMoving"))
-        {
-            runAudio.Play();
-            runAudio.loop = true;
-        }
+        
         if(Input.GetKey(KeyCode.LeftArrow))
         {
             transform.localPosition += new Vector3(-velocity,0,0) * Time.deltaTime;
@@ -63,9 +84,24 @@ public class PlayerControl : MonoBehaviour
             GetComponent<Rigidbody2D>().AddForce(new Vector2(0,jumpHeight), ForceMode2D.Force);
             gameAnimator.SetTrigger("Jump");
             jumpAudio.Play();
+            
+            runAudio.Stop();
         }
-        gameAnimator.SetBool("isOnAir", !isGrounded);
-        
 
+        if (!isGrounded && _isRun)
+        {
+            runAudio.Play();
+        }
+        
+        gameAnimator.SetBool("isOnAir", !isGrounded);
+    }
+
+    IEnumerator OnPlayerMove()
+    {
+        runAudio.Play();
+
+        Debug.Log("Running!!");
+        
+        yield return new WaitForSeconds(0.5f);
     }
 }
