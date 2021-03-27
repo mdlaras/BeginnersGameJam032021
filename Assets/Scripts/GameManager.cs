@@ -1,22 +1,22 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    private const string PlayerDataPrefKey = "PlayerData";
+
     public int dimensionShard;
+    
     [SerializeField] AudioSource changeStageSound;
     [SerializeField] AudioSource shardCollectSound;
 
-    private void Start()
-    {
-        if (SaveManager.Instance.hasLoaded)
-        {
-            dimensionShard = SaveManager.Instance.activeSave.dimensionShard;
-        }
-    }
-
     private void Awake()
     {
+        if (PlayerPrefs.HasKey(PlayerDataPrefKey))
+        {
+            var defaultDimensionalShard = PlayerPrefs.GetInt(PlayerDataPrefKey);
+            dimensionShard = defaultDimensionalShard;
+        }
+        
         GameObject[] objs = GameObject.FindGameObjectsWithTag("GameManager");
 
         if (objs.Length > 1)

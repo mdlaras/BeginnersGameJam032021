@@ -268,6 +268,8 @@ MonoBehaviour:
   sceneName: Stage_7_Prototype
   stageButton: {fileID: 110750769}
   textButton: {fileID: 901467248}
+  activeLoadData:
+    loadName: 
 --- !u!1 &139446993
 GameObject:
   m_ObjectHideFlags: 0
@@ -493,6 +495,8 @@ MonoBehaviour:
   sceneName: Stage_4_Prototype
   stageButton: {fileID: 283462016}
   textButton: {fileID: 139446995}
+  activeLoadData:
+    loadName: 
 --- !u!1 &301952887
 GameObject:
   m_ObjectHideFlags: 0
@@ -640,6 +644,8 @@ MonoBehaviour:
   sceneName: Stage_9_Prototype
   stageButton: {fileID: 301952889}
   textButton: {fileID: 1164923497}
+  activeLoadData:
+    loadName: 
 --- !u!1 &324517449
 GameObject:
   m_ObjectHideFlags: 0
@@ -664,7 +670,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 324517449}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 473f542c979891244894d6f484d00261, type: 3}
   m_Name: 
@@ -920,6 +926,8 @@ MonoBehaviour:
   sceneName: Stage_6_Prototype
   stageButton: {fileID: 730658261}
   textButton: {fileID: 753030170}
+  activeLoadData:
+    loadName: 
 --- !u!1 &753030168
 GameObject:
   m_ObjectHideFlags: 0
@@ -1145,6 +1153,8 @@ MonoBehaviour:
   sceneName: Stage_2_Prototype
   stageButton: {fileID: 845050249}
   textButton: {fileID: 969477996}
+  activeLoadData:
+    loadName: stage2
 --- !u!1 &875436462
 GameObject:
   m_ObjectHideFlags: 0
@@ -2076,6 +2086,8 @@ MonoBehaviour:
   sceneName: Stage_3_Prototype
   stageButton: {fileID: 1615844587}
   textButton: {fileID: 2058599402}
+  activeLoadData:
+    loadName: stage3
 --- !u!1 &1649716102
 GameObject:
   m_ObjectHideFlags: 0
@@ -2379,6 +2391,8 @@ MonoBehaviour:
   sceneName: Stage_8_Prototype
   stageButton: {fileID: 1832814534}
   textButton: {fileID: 1772473269}
+  activeLoadData:
+    loadName: 
 --- !u!1 &1897471753
 GameObject:
   m_ObjectHideFlags: 0
@@ -2526,6 +2540,8 @@ MonoBehaviour:
   sceneName: Stage_1_Prototype
   stageButton: {fileID: 1897471755}
   textButton: {fileID: 1649716104}
+  activeLoadData:
+    loadName: stage1
 --- !u!1 &1991397746
 GameObject:
   m_ObjectHideFlags: 0
@@ -2673,6 +2689,8 @@ MonoBehaviour:
   sceneName: Stage_5_Prototype
   stageButton: {fileID: 1991397748}
   textButton: {fileID: 1212392175}
+  activeLoadData:
+    loadName: 
 --- !u!1 &2058599400
 GameObject:
   m_ObjectHideFlags: 0
@@ -2898,6 +2916,8 @@ MonoBehaviour:
   sceneName: 
   stageButton: {fileID: 2099294962}
   textButton: {fileID: 1230005719}
+  activeLoadData:
+    loadName: 
 --- !u!1 &2144280888
 GameObject:
   m_ObjectHideFlags: 0
@@ -3045,3 +3065,5 @@ MonoBehaviour:
   sceneName: 
   stageButton: {fileID: 2144280890}
   textButton: {fileID: 1031627473}
+  activeLoadData:
+    loadName: 
